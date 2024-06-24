@@ -1,0 +1,121 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Навигационна лента */
+.navbar {
+  padding: 0px 10%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-and-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.navbar img {
+  width: 210px;
+  height: 100px;
+}
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.active {
+  color: #ff782c !important;
+}
+.navbar-links a {
+  text-decoration: none;
+  color: #212121;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+.navbar-links a:hover {
+  color: #ff782c;
+}
+.navbar form {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.navbar input {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  border-color: #f5f5f5;
+  background: #f5f5f5;
+  padding: 15px 55px 15px 20px;
+  border: 1px solid #f5f5f5;
+  width: 350px;
+  transition: border 0.3s;
+}
+.navbar input:focus,
+.navbar input:hover {
+  outline: none;
+  border: 1px solid #6839cc;
+}
+.icons {
+  display: flex;
+  align-items: center;
+}
+.icons img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+
+/* Footer */
+.site-footer {
+  border-top: 1px dashed #ff782c;
+  color: white;
+  padding: 60px 0;
+  font-family: Arial, sans-serif;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.footer-column {
+  color: #333;
+}
+.footer-logo {
+  max-width: 150px;
+  margin-bottom: 10px;
+}
+.site-name {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+.footer-links li {
+  margin-bottom: 5px;
+}
+.footer-column h3 {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+.footer-column a,
+.footer-column p {
+  color: #666;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  margin-bottom: 5px;
+}
+.footer-column a:hover,
+.footer-column p:hover {
+  color: #ff782c;
+}

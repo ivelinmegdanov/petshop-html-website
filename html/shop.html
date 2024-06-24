@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetShop</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../css/shop.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-and-links">
+        <img
+          href="index.html"
+          class="logo"
+          src="../images/logo.png"
+          alt="Logo"
+        />
+        <div class="navbar-links">
+          <a href="index.html">Начало</a>
+          <a href="shop.html" class="active">Магазин</a>
+          <a href="contacts.html">Контакти</a>
+          <a href="about_me.html">За Mен</a>
+          <a href="login.html">Вход</a>
+        </div>
+      </div>
+      <div class="icons">
+        <form action="products.html" method="get">
+          <input type="text" name="search" placeholder="Търсене..." />
+        </form>
+        <a href="#">
+          <img src="../images/cartIcon.jpg" alt="Количка" />
+        </a>
+        <a href="login.html">
+          <img src="../images/userIcon.png" alt="Потребител" />
+        </a>
+      </div>
+    </nav>
+
+    <div class="main-content">
+      <aside class="sidebar">
+        <h2>Категория</h2>
+        <div class="filter-group">
+          <ul>
+            <li><a href="#">Купички</a> (53)</li>
+            <li><a href="#">Дрехи</a> (12)</li>
+            <li><a href="#">Наградки</a> (23)</li>
+            <li><a href="#">Храна</a> (64)</li>
+            <li><a href="#">Играчки</a> (23)</li>
+            <li><a href="#">Лекарства</a> (12)</li>
+            <li><a href="#">Легла</a> (12)</li>
+            <li><a href="#">Клетки</a> (15)</li>
+            <li><a href="#">Други</a> (30)</li>
+          </ul>
+        </div>
+        <h2>Цена</h2>
+        <div class="filter-group">
+          <input class="slider" type="range" min="0" max="500" value="250" />
+          <p>Цена до: 250 лв.</p>
+        </div>
+      </aside>
+
+      <!-- Products Section -->
+      <section class="products">
+        <div class="product-grid">
+          <!-- Repeat this block for each product -->
+          <div class="product-item">
+            <img src="../images/shop/product1.jpg" alt="Продукт" />
+            <h3>Феликс храна</h3>
+            <p>Цена: 19.99 лв.</p>
+            <button>Купи</button>
+          </div>
+          <div class="product-item">
+            <img src="../images/shop/product2.jpg" alt="Продукт" />
+            <h3>Котешка храна</h3>
+            <p>Цена: 29.99 лв.</p>
+            <button>Купи</button>
+          </div>
+          <div class="product-item">
+            <img src="../images/shop/product3.jpg" alt="Продукт" />
+            <h3>Гурмет награда</h3>
+            <p>Цена: 4.99 лв.</p>
+            <button>Купи</button>
+          </div>
+          <div class="product-item">
+            <img src="../images/shop/product4.jpg" alt="Продукт" />
+            <h3>Заешки уши</h3>
+            <p>Цена: 13.99 лв.</p>
+            <button>Купи</button>
+          </div>
+          <div class="product-item">
+            <img src="../images/shop/product5.jpg" alt="Продукт" />
+            <h3>Храна за куче</h3>
+            <p>Цена: 11.99 лв.</p>
+            <button>Купи</button>
+          </div>
+          <div class="product-item">
+            <img src="../images/shop/product6.jpg" alt="Продукт" />
+            <h3>100% Натурална храна</h3>
+            <p>Цена: 45.99 лв.</p>
+            <button>Купи</button>
+          </div>
+          <div class="product-item">
+            <img src="../images/shop/product7.jpg" alt="Продукт" />
+            <h3>Котешка тоалетна</h3>
+            <p>Цена: 72.99 лв.</p>
+            <button>Купи</button>
+          </div>
+          <div class="product-item">
+            <img src="../images/shop/product8.jpg" alt="Продукт" />
+            <h3>Котешка храна</h3>
+            <p>Цена: 23.99 лв.</p>
+            <button>Купи</button>
+          </div>
+          <div class="product-item">
+            <img src="../images/shop/product9.jpg" alt="Продукт" />
+            <h3>Феликс 24 порции</h3>
+            <p>Цена: 11.99 лв.</p>
+            <button>Купи</button>
+          </div>
+          <div class="product-item">
+            <img src="../images/shop/product10.jpg" alt="Продукт" />
+            <h3>Кучешка играчка</h3>
+            <p>Цена: 32.99 лв.</p>
+            <button>Купи</button>
+          </div>
+          <div class="product-item">
+            <img src="../images/shop/product11.jpg" alt="Продукт" />
+            <h3>Легло за любимец</h3>
+            <p>Цена: 9.99 лв.</p>
+            <button>Купи</button>
+          </div>
+          <div class="product-item">
+            <img src="../images/shop/product12.jpg" alt="Продукт" />
+            <h3>Вип храна за котка</h3>
+            <p>Цена: 20.99 лв.</p>
+            <button>Купи</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <img src="../images/logo.png" alt="Logo" class="footer-logo" />
+          <p class="site-name">PetShop</p>
+          <p class="copyright">&copy; 2024 PetShop</p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Линкове</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li><a href="about_me.html">За Мен</a></li>
+            <li><a href="login.html">Вход</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>За Мен</h3>
+          <p class="name">Ивелин Мегданов</p>
+          <p class="phone">+359 123 123 123</p>
+          <p class="email">iv4o.megdanov@gmail.com</p>
+          <p class="town">ул. Някъде си там 123</p>
+          <p class="town">Велико Търново</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

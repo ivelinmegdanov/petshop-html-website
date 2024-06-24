@@ -1,0 +1,73 @@
+.form-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 150px 80px;
+  width: 100%;
+}
+.form-box {
+  flex-basis: 40%;
+  padding: 40px;
+}
+.form-container h2 {
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.remember-me {
+  display: flex;
+  align-items: center;
+}
+input[type="email"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="password"]:focus {
+  border: 1px solid #6839cc;
+}
+input[type="checkbox"] {
+  margin-right: 10px;
+  margin-top: -5px;
+}
+.form-container button {
+  background: #ff782c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background 0.3s ease;
+}
+.form-container button:hover {
+  background: #e5671f;
+}
+.form-container a {
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: #ff782c;
+  text-decoration: none;
+}
+.form-container a:hover {
+  text-decoration: underline;
+}
+.remember-me {
+  margin-bottom: 20px;
+}
+.form-container p {
+  font-size: 14px;
+  line-height: 1.5;
+}

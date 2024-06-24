@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetShop</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-and-links">
+        <img
+          href="index.html"
+          class="logo"
+          src="../images/logo.png"
+          alt="Logo"
+        />
+        <div class="navbar-links">
+          <a href="index.html">Начало</a>
+          <a href="shop.html">Магазин</a>
+          <a href="contacts.html" class="active">Контакти</a>
+          <a href="about_me.html">За Mен</a>
+          <a href="login.html">Вход</a>
+        </div>
+      </div>
+      <div class="icons">
+        <form action="products.html" method="get">
+          <input type="text" name="search" placeholder="Търсене..." />
+        </form>
+        <a href="#">
+          <img src="../images/cartIcon.jpg" alt="Количка" />
+        </a>
+        <a href="login.html">
+          <img src="../images/userIcon.png" alt="Потребител" />
+        </a>
+      </div>
+    </nav>
+
+    <div class="information">
+      <h2>Свържете се с нас</h2>
+      <div class="contact-info">
+        <div class="contact-column">
+          <h3>Адрес</h3>
+          <p>ул. Някъде си там 123</p>
+          <p>Велико Търново</p>
+        </div>
+        <div class="contact-column">
+          <h3>Телефон</h3>
+          <p>+359 123 123 123</p>
+        </div>
+        <div class="contact-column">
+          <h3>Работно време</h3>
+          <p>Понеделник – Петък: 10:00 – 18:00</p>
+        </div>
+        <div class="contact-column">
+          <h3>Имейл</h3>
+          <p>iv4o.megdanov@gmail.com</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form">
+      <div class="contact-left">
+        <h2>Имате въпроси?</h2>
+        <p>Свържете се с нас чрез формата по-долу.</p>
+        <form action="https://api.web3forms.com/submit" method="post">
+          <input
+            type="hidden"
+            name="access_key"
+            value="2066f2f5-85e4-4b1f-92c3-75edf6906b81"
+          />
+          <input type="text" name="name" placeholder="Име" required />
+          <input type="email" name="email" placeholder="Имейл" required />
+          <textarea name="message" placeholder="Съобщение" required></textarea>
+          <button type="submit">Изпрати</button>
+        </form>
+      </div>
+      <dic class="contact-right">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71969.10857444754!2d25.61742420631753!3d43.02803177474095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a9214b3d9491dd%3A0x400a01269bf5dc0!2z0JLQtdC70LjQutC-INCi0YrRgNC90L7QstC-LCDQkdGK0LvQs9Cw0YDQuNGP!5e0!3m2!1sbg!2snl!4v1712155211187!5m2!1sbg!2snl"
+          width="500"
+          height="400"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </dic>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <img src="../images/logo.png" alt="Logo" class="footer-logo" />
+          <p class="site-name">PetShop</p>
+          <p class="copyright">&copy; 2024 PetShop</p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Линкове</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li><a href="about_me.html">За Мен</a></li>
+            <li><a href="login.html">Вход</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>За Мен</h3>
+          <p class="name">Ивелин Мегданов</p>
+          <p class="phone">+359 123 123 123</p>
+          <p class="email">iv4o.megdanov@gmail.com</p>
+          <p class="town">ул. Някъде си там 123</p>
+          <p class="town">Велико Търново</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

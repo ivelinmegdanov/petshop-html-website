@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="bg">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PetShop</title>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-and-links">
+        <img
+          href="index.html"
+          class="logo"
+          src="../images/logo.png"
+          alt="Logo"
+        />
+        <div class="navbar-links">
+          <a href="index.html">Начало</a>
+          <a href="shop.html">Магазин</a>
+          <a href="contacts.html">Контакти</a>
+          <a href="about_me.html">За Mен</a>
+          <a href="login.html" class="active">Вход</a>
+        </div>
+      </div>
+      <div class="icons">
+        <form action="products.html" method="get">
+          <input type="text" name="search" placeholder="Търсене..." />
+        </form>
+        <a href="#">
+          <img src="../images/cartIcon.jpg" alt="Количка" />
+        </a>
+        <a href="login.html">
+          <img src="../images/userIcon.png" alt="Потребител" />
+        </a>
+      </div>
+    </nav>
+
+    <div class="form-container">
+      <div class="form-box">
+        <h2>Вход</h2>
+        <form action="#" method="post">
+          <label for="login-username">Имейл *</label>
+          <input type="email" id="login-username" name="username" required />
+
+          <label for="login-password">Парола *</label>
+          <input type="password" id="login-password" name="password" required />
+
+          <div class="remember-me">
+            <input type="checkbox" id="remember-me" />
+            <label for="remember-me">Запомни ме</label>
+          </div>
+
+          <button type="submit">Вход</button>
+          <a href="#">Забравена парола?</a>
+        </form>
+      </div>
+
+      <div class="form-box">
+        <h2>Регистрация</h2>
+        <form action="#" method="post">
+          <label for="register-email">Имейл *</label>
+          <input type="email" id="register-email" name="email" required />
+          <label for="login-password">Парола *</label>
+          <input type="password" id="login-password" name="password" required />
+          <label for="login-password">Повтори парола *</label>
+          <input type="password" id="login-password" name="password" required />
+          <button type="submit">Регистрация</button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <img src="../images/logo.png" alt="Logo" class="footer-logo" />
+          <p class="site-name">PetShop</p>
+          <p class="copyright">&copy; 2024 PetShop</p>
+        </div>
+
+        <div class="footer-column">
+          <h3>Линкове</h3>
+          <ul class="footer-links">
+            <li><a href="index.html">Начало</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+            <li><a href="contacts.html">Контакти</a></li>
+            <li><a href="about_me.html">За Мен</a></li>
+            <li><a href="login.html">Вход</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>За Мен</h3>
+          <p class="name">Ивелин Мегданов</p>
+          <p class="phone">+359 123 123 123</p>
+          <p class="email">iv4o.megdanov@gmail.com</p>
+          <p class="town">ул. Някъде си там 123</p>
+          <p class="town">Велико Търново</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
